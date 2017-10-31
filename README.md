@@ -1,5 +1,7 @@
 # Tesladuino
-Code for a custom Singing Tesla Coil Interrupter based on the Arduino platform (software).
+Code for a custom Singing Tesla Coil Interrupter based on the Arduino platform
+(software). Included here are the Interrupter Firmware packages from OneTesla
+LLC which I intend to base sections of in this project.
 
 ## Desired Feature List - *italics are future features*
 * Battery powered from internal rechargeable battery
@@ -15,7 +17,8 @@ Code for a custom Singing Tesla Coil Interrupter based on the Arduino platform (
 * Maximum total duty-cycle (i.e. max avg. output power) =
 
 ## Components - What I used but any mix will work with code modifications.
-* Adafruit Feather M0 Adalogger (built in SD & more powerful SAMD21 Processor. Equiv to Arduino/Genuino MKR Zero)
+* Adafruit Feather M0 Adalogger (built in SD & more powerful SAMD21 Processor. 
+  Equivalent to Arduino/Genuino MKR Zero)
 * SSD 1306 Monochrome 0.96" 128x64 OLED Display
 * Rotary Encoder /w Click (Volume Knob) & Knob
 * 600mAh LiPo battery
