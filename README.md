@@ -12,18 +12,6 @@ LLC which I intend to base sections of in this project.
   * MIDI File Playback from SD Card
   * *MIDI In for live playback - Future Version*
 
-## Menu ideas
-* Fixed
-* SD Midi
-* *Live Midi - future version*
-* Knob Control Only
-
-## Output Signal Specification
-* Pulse Width (Volume) - 6.5us to 47.5us
-* Frequency - Matches desired sound frequency
-* Maximum total duty-cycle (i.e. max avg. output power) =
-
-
 # Implementation
 ## Hardware - What I used but any mix will work with code modifications.
 * Adafruit Feather M0 Adalogger (built in SD & more powerful SAMD21 Processor.
@@ -37,8 +25,11 @@ LLC which I intend to base sections of in this project.
 * TOSLINK connector Optical out (replace coil receiver with TOSLINK too?)
 * *MIDI In jack & Optoisolator*
 
-## Sofware Dependencies
-* Adafruit_SSD1306 & Adafruit-GFX-Library
-* SDFat
-* Rotary Encoder Library (TBC)
-* MIDI Library (TBC)
+## Software
+### Menu
+* 1 Button (Back/Esc) & click encoder (Select).
+* Menu Tree:
+  * **Fixed Mode**
+    * Volume Adjust
+    * Frequency Adjust
+  * SD Card
